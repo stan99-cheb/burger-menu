@@ -8,8 +8,8 @@ const Menu = ({ menuTitle, menuItems }) => {
       <div className={classes.menu__content}>
         <h2 className={classes.menu__header}>{menuTitle}</h2>
         <ul className={classes.munu__list}>
-          {menuItems.map(item =>
-            <li>{item.title}</li> 
+          {menuItems.map((item, index) =>
+            <li key={index}>{item.title}</li> 
           )}
         </ul>
       </div>
