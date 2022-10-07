@@ -1,0 +1,18 @@
+.menu {
+  margin: 50px auto 0;
+
+  position: fixed;
+}
+
+.menu__content {
+
+}
+
+.menu__header {
+  margin: 0;
+  padding: 0;
+}
+
+.munu__list {
+  list-style-type: none;
+}

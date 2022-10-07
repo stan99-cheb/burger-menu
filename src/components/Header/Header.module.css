@@ -1,0 +1,27 @@
+.header {
+  margin-bottom: 50px;
+}
+
+.nav {
+  margin: 0 auto;
+  padding: 0;
+
+  width: 100vw;
+  height: 50px;
+
+  background-color: antiquewhite;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav__btn {
+  width: 24px;
+  height: 24px;
+
+  background-image: url(../../images/menu.svg);
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+}
